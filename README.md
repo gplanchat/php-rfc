@@ -1,0 +1,123 @@
+PHP RFCs for Collection objects
+===============================
+
+Introduction
+------------
+
+This repository aims to be a support for several PHP RFCs impelmenting Collection objects one part after the other.
+
+Draft RFCs
+----------
+
+* [Bidirectional Iterator](bidirectional-iterator.md)
+* [Sortable objects](sortable.md)
+
+To be addressed
+---------------
+
+Equivalences with array functions
+---------------------------------
+
+* [`array_change_key_case`](http://php.net/manual/en/function.array_change_key_case.php)
+* [`array_chunk`](http://php.net/manual/en/function.array_chunk.php)
+* [`array_column`](http://php.net/manual/en/function.array_column.php)
+* [`array_combine`](http://php.net/manual/en/function.array_combine.php)
+* [`array_count_values`](http://php.net/manual/en/function.array_count_values.php)
+* [`array_diff_assoc`](http://php.net/manual/en/function.array_diff_assoc.php)
+* [`array_diff_key`](http://php.net/manual/en/function.array_diff_key.php)
+* [`array_diff_uassoc`](http://php.net/manual/en/function.array_diff_uassoc.php)
+* [`array_diff_ukey`](http://php.net/manual/en/function.array_diff_ukey.php)
+* [`array_diff`](http://php.net/manual/en/function.array_diff.php)
+* [`array_fill_keys`](http://php.net/manual/en/function.array_fill_keys.php)
+* [`array_fill`](http://php.net/manual/en/function.array_fill.php)
+* [`array_filter`](http://php.net/manual/en/function.array_filter.php)
+* [`array_flip`](http://php.net/manual/en/function.array_flip.php)
+* [`array_intersect_assoc`](http://php.net/manual/en/function.array_intersect_assoc.php)
+* [`array_intersect_key`](http://php.net/manual/en/function.array_intersect_key.php)
+* [`array_intersect_uassoc`](http://php.net/manual/en/function.array_intersect_uassoc.php)
+* [`array_intersect_ukey`](http://php.net/manual/en/function.array_intersect_ukey.php)
+* [`array_intersect`](http://php.net/manual/en/function.array_intersect.php)
+* [`array_key_exists`](http://php.net/manual/en/function.array_key_exists.php)
+* [`array_key_first`](http://php.net/manual/en/function.array_key_first.php)
+* [`array_key_last`](http://php.net/manual/en/function.array_key_last.php)
+* [`array_keys`](http://php.net/manual/en/function.array_keys.php)
+* [`array_map`](http://php.net/manual/en/function.array_map.php)
+* [`array_merge_recursive`](http://php.net/manual/en/function.array_merge_recursive.php)
+* [`array_merge`](http://php.net/manual/en/function.array_merge.php)
+* [`array_multisort`](http://php.net/manual/en/function.array_multisort.php)
+* [`array_pad`](http://php.net/manual/en/function.array_pad.php)
+* [`array_pop`](http://php.net/manual/en/function.array_pop.php)
+* [`array_product`](http://php.net/manual/en/function.array_product.php)
+* [`array_push`](http://php.net/manual/en/function.array_push.php)
+* [`array_rand`](http://php.net/manual/en/function.array_rand.php)
+* [`array_reduce`](http://php.net/manual/en/function.array_reduce.php)
+* [`array_replace_recursive`](http://php.net/manual/en/function.array_replace_recursive.php)
+* [`array_replace`](http://php.net/manual/en/function.array_replace.php)
+* [`array_reverse`](http://php.net/manual/en/function.array_reverse.php)
+* [`array_search`](http://php.net/manual/en/function.array_search.php)
+* [`array_shift`](http://php.net/manual/en/function.array_shift.php)
+* [`array_slice`](http://php.net/manual/en/function.array_slice.php)
+* [`array_splice`](http://php.net/manual/en/function.array_splice.php)
+* [`array_sum`](http://php.net/manual/en/function.array_sum.php)
+* [`array_udiff_assoc`](http://php.net/manual/en/function.array_udiff_assoc.php)
+* [`array_udiff_uassoc`](http://php.net/manual/en/function.array_udiff_uassoc.php)
+* [`array_udiff`](http://php.net/manual/en/function.array_udiff.php)
+* [`array_uintersect_assoc`](http://php.net/manual/en/function.array_uintersect_assoc.php)
+* [`array_uintersect_uassoc`](http://php.net/manual/en/function.array_uintersect_uassoc.php)
+* [`array_uintersect`](http://php.net/manual/en/function.array_uintersect.php)
+* [`array_unique`](http://php.net/manual/en/function.array_unique.php)
+* [`array_unshift`](http://php.net/manual/en/function.array_unshift.php)
+* [`array_values`](http://php.net/manual/en/function.array_values.php)
+* [`array_walk_recursive`](http://php.net/manual/en/function.array_walk_recursive.php)
+* [`array_walk`](http://php.net/manual/en/function.array_walk.php)
+* [`array`](http://php.net/manual/en/function.array.php)
+* [`arsort`](http://php.net/manual/en/function.arsort.php)
+  * [Sortable objects](sortable.md)
+* [`asort`](http://php.net/manual/en/function.asort.php)
+  * [Sortable objects](sortable.md)
+* [`compact`](http://php.net/manual/en/function.compact.php)
+* [`count`](http://php.net/manual/en/function.count.php)
+  * see [`\Countable::count`](http://php.net/manual/en/countable.count.php)
+* [`current`](http://php.net/manual/en/function.current.php)
+  * see [`\Iterator::current`](http://php.net/manual/en/iterator.current.php)
+* [`each`](http://php.net/manual/en/function.each.php)
+* [`end`](http://php.net/manual/en/function.end.php)
+  * see [`\Iterator::end`](http://php.net/manual/en/iterator.end.php)
+* [`extract`](http://php.net/manual/en/function.extract.php)
+* [`in_array`](http://php.net/manual/en/function.in_array.php)
+* [`key_exists`](http://php.net/manual/en/function.key_exists.php)
+* [`key`](http://php.net/manual/en/function.key.php)
+  * see [`\Iterator::key`](http://php.net/manual/en/iterator.key.php)
+* [`krsort`](http://php.net/manual/en/function.krsort.php)
+  * [Sortable objects](sortable.md)
+* [`ksort`](http://php.net/manual/en/function.ksort.php)
+  * [Sortable objects](sortable.md)
+* [`list`](http://php.net/manual/en/function.list.php)
+* [`natcasesort`](http://php.net/manual/en/function.natcasesort.php)
+  * see [Sortable objects](sortable.md#the-splnaturalsorter-class), `SplNaturalSorter`
+* [`natsort`](http://php.net/manual/en/function.natsort.php)
+  * see [Sortable objects](sortable.md#the-splnaturalinsensiticesorter-class), `SplNaturalInsensitiveSorter`
+* [`next`](http://php.net/manual/en/function.next.php)
+  * see [`\Iterator::next`](http://php.net/manual/en/iterator.next.php)
+* [`pos`](http://php.net/manual/en/function.pos.php)
+  * see [`\Iterator::current`](http://php.net/manual/en/iterator.current.php)
+* [`prev`](http://php.net/manual/en/function.prev.php)
+  * see [Bidirectional Iterator](bidirectional-iterator.md#proposal)
+* [`range`](http://php.net/manual/en/function.range.php)
+* [`reset`](http://php.net/manual/en/function.reset.php)
+  * see [`\Iterator::rewind`](http://php.net/manual/en/iterator.rewind.php)
+* [`rsort`](http://php.net/manual/en/function.rsort.php)
+  * [Sortable objects](sortable.md)
+* [`shuffle`](http://php.net/manual/en/function.shuffle.php)
+  * see [Sortable objects](sortable.md#the-splshufflesorter-class), `SplShuffleSorter`
+* [`sizeof`](http://php.net/manual/en/function.sizeof.php)
+  * see [`\Countable::count`](http://php.net/manual/en/countable.count.php)
+* [`sort`](http://php.net/manual/en/function.sort.php)
+  * [Sortable objects](sortable.md)
+* [`uasort`](http://php.net/manual/en/function.uasort.php)
+  * [Sortable objects](sortable.md)
+* [`uksort`](http://php.net/manual/en/function.uksort.php)
+  * [Sortable objects](sortable.md)
+* [`usort`](http://php.net/manual/en/function.usort.php)
+  * see [Sortable objects](sortable.md#the-splcallbacksorter-class), `SplCallbackSorter`
+
